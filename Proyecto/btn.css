@@ -1,0 +1,14 @@
+.btn li a{
+  display: inline-block;
+  background: linear-gradient(180deg, #083963 0%, #3BA9CC 100%);
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+.btn{
+    list-style: none;
+}

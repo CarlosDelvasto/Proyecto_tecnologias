@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 .fondo{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     background: linear-gradient(180deg, #004670 0%, #00D1AC 100%);
     border: 1px solid #00D1AC;
     border-radius: 12px;
@@ -17,9 +21,8 @@ body{
 }
 
 .wrap{
-    width: 1080px;
-    max-width: 95%;
-    margin: 30px auto;
+    width: cover;
+    margin: 0px auto;
 }
 ul.tabs{
     width: 100%;
