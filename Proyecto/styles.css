@@ -60,6 +60,14 @@ ul.tabs li{
      padding: 10px;
 }
 
+
+.Panel {
+  
+    background: white;
+   
+ }
+
+
 @media screen and (max-width: 800px ){
     ul.tabs li{
         width: none;
