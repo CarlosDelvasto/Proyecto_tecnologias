@@ -101,9 +101,11 @@ text-align:center
 
 }
 
-
+.Panel_InicioSesion b, .Panel_Registro b {
+    font-weight: 3000;
+}
 .Panel_InicioSesion, .Panel_Registro {  
-
+    font-weight: 3000;
   position: absolute; 
  border-radius: 25px;
  background: white;
