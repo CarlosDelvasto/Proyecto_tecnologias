@@ -5,14 +5,28 @@
     text-decoration: none;
     padding: 15px;
     margin-bottom: 30px;
-    width: 200px;
+    width: 25vh;
   }
   .btn{
       list-style: none;
   }
   .btn_inicio a{
+    position: absolute;
+    left: 25%;
+    top:70%;
+    transform: translate(-50%,-50%);
     border: 1px solid #fff;
   }
+  .btn_inicio a:hover{
+    background: #00C2FF;
+  }
   .btn_registro a{
+    position: absolute;
+    left: 25%;
+    top:80%;
+    transform: translate(-50%,-50%);
     background: linear-gradient(180deg, #083963 0%, #3BA9CC 100%);
+  }
+  .btn_registro a:hover{
+    background: linear-gradient(180deg, #A442FF 13.42%, #3BA9CC 100%);
   }

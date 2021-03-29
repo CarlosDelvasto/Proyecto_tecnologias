@@ -44,16 +44,20 @@ ul.tabs li a{
 
 }
 .img_logo{
-    position: relative;
-    height: 50%;
-    width: 40%;
+    position: absolute;
+    left: 25%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    width: 90vh;
+    
 }
 .video1{
     position: relative;
     height: 60%;
     width: 40%;
     float: right;
-    margin-right: 10%;
+    margin-right: 2%;
+    margin-top: 10%;
 }
 .log{
     color: #fff;
@@ -123,6 +127,27 @@ text-align:center
         flex-basis: 0;
         flex-grow: 1;
     }
+    li.btn_inicio{
+        position: absolute;
+        left: 50%;
+        top:80%;
+        transform: translate(-50%,-50%);
+    }
+    li.btn_registro{
+        position: absolute;
+        left: 50%;
+        top:90%;
+        transform: translate(-50%,-50%);
+    }
+    img.img_logo{
+        position: absolute;
+        left: 50%;
+        top:20%;
+        transform: translate(-50%,-50%);
+        width: 50vh;
+        
+
+    }
 }
 @media screen and (max-width: 665px){
     ul.tabs li a{
@@ -134,4 +159,5 @@ text-align:center
     .secciones article{
         padding: 20px;
     }
+  
 }
