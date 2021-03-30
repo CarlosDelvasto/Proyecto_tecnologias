@@ -35,9 +35,9 @@ ul.tabs li a{
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 13px;
     display: block;
-    padding: 20px 0px;
+    padding: 12px 0px;
     text-align: center;
     border-right: 1px solid #00C2FF;
     border-left: 1px solid #00C2FF;
@@ -62,9 +62,9 @@ ul.tabs li a{
 .log{
     color: #fff;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 15px;
     display: block;
-    padding: 20px 0px;
+    padding: 12px 0px;
     text-align: center;
     border-right: 1px solid #00C2FF;
 }
