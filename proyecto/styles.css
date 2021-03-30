@@ -119,6 +119,18 @@ text-align:center
  transform: translate (-50%, -50%);
    
  }
+ .rectangulolineatiempo{
+    position: absolute;
+    width: 1365px;
+    height: 1998px;
+    left: 38px;
+    top: 40px;
+    
+    background: linear-gradient(180deg, #004670 0%, #00D1AC 100%);
+    border: 1px solid #00C2FF;
+    box-sizing: border-box;
+    border-radius: 12px;
+ }
 
 
 @media screen and (max-width:  800px ){
