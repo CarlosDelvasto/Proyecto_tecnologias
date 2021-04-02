@@ -127,14 +127,14 @@ position: absolute;
     
      border-radius: 25px;
      background: white;
-     padding: 22px; 
+     padding: 20px; 
      margin-top: 2%;
      top: 40%; 
      left: 18%; 
      right: 18%;
      border: none; 
      transform: translate (-50%, -50%);
-       
+padding-bottom: 0%;
     }
 
 .Panel_InicioSesion a , .Panel_Registro a {   /* Links de ya tienes cuenta?*/
@@ -210,7 +210,6 @@ margin-left:15%;
         border-radius: 30px;
         padding: 0.5%;
         border-color: rgb(0, 0, 0, 0.5);
-        
         margin-left: 20%;
         }
 
@@ -262,16 +261,77 @@ margin-left:15%;
 
     width: 50%;
     left:50%;
-    top:80%;
+    top:70%;
     transform: translate(-50%,-50%);
+    padding-bottom: 1%;
+    }
+    .Texto_InicioSesion h1, .Texto_Registro h1
+    {
+     margin-top: 15px;
+    font-size: 5vh;
+    text-align: center;
 
     }
+    .Texto_InicioSesion p, .Texto_Registro p
+    {
+        margin-top: 10px;
+       font-size: 3vh;
+    }
 
-    
+    .Panel_InicioSesion a , .Panel_Registro a 
+    {
+        margin-left: 10%;
+        font-size: 60%;
+      margin-right: 10%;
+    }
 
+    .Panel_InicioSesion h2
+    {
+        font-size: 2vh;  
+        margin-left: 15%;
+        margin-right: 10%;
+       
+    }
+    .Panel_Registro h2
+    {
+        font-size: 1.8vh;  
+        margin-left: 12%;
+        margin-right: 12%;
+       
+    }
 
+    .Panel_InicioSesion .boton , .Panel_Registro .boton {   /* Botones azules*/
+        font-size: 2vh;
+      
+       width: 80%;
+       margin-left: 10%;
+       padding: 2%;
+      
+    }
 
+    .controls
+   {
 
+    width: 100%;
+    margin-left:3%;
+
+    }
+    .controlsr
+    {
+
+        width: 100%;
+    margin-left:3%;
+    font-size: 70%; 
+    padding: 2%;
+    }
+.controlsr1Apellido, .controlsr1Nombre
+{
+    width: 100%;
+    margin-left:3%;
+    font-size: 70%; 
+    padding: 2%;
+    margin-top: 10%;
+}
 
 }
 
