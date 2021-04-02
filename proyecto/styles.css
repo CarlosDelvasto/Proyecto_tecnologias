@@ -83,10 +83,9 @@ ul.tabs li{
      padding: 10px;
 }
 
+
 .Texto_InicioSesion, .Texto_Registro {
 color :white;
-
-
 }
 
 .Texto_InicioSesion h1, .Texto_Registro h1 { 
@@ -120,9 +119,7 @@ position: absolute;
  right: 18%;
  border: none; 
  transform: translate (-50%, -50%);
- 
-   
-}
+ }
 
 .Panel_Registro  {     /* Panel blanco*/
 
@@ -208,10 +205,6 @@ margin-left:15%;
         
         }
 
-
-
-
-
     .controlsr {            /* Cajas de formatos de nombre y apellido del registro*/
         width: 60%;
         border-radius: 30px;
@@ -261,6 +254,31 @@ margin-left:15%;
     }
   
 }
+
+@media screen and (max-width:  665px ){
+
+    .Panel_InicioSesion , .Panel_Registro 
+    {
+
+    width: 50%;
+    left:50%;
+    top:80%;
+    transform: translate(-50%,-50%);
+
+    }
+
+    
+
+
+
+
+
+}
+
+
+
+
+
 
 .cubo1{
     position: absolute;
