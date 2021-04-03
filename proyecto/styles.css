@@ -335,8 +335,14 @@ margin-left:15%;
 
 }
 
-
-
+.img_logoM{
+   
+    
+    top:40%;
+    transform: translate(50%,0%);
+    width: 90vh;
+    
+}
 
 
 

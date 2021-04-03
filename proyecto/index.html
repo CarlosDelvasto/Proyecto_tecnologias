@@ -21,6 +21,13 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
+    <!-- PARTE 3D 
+<script srcc = ""></script>
+<script srcc ="" ></script>
+<script srcc ="" ></script>
+
+    let scene, camera, renderer;
+-->
 <meta name= "viewport" content= "width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
 </head>
 
@@ -68,7 +75,7 @@
                             <input class = "controls" type="email" id="correo" name="correo" placeholder="Correo electrónico"><br> <br>
                             <input class = "controls" type="password" id="contraseña" name="contraseña"  placeholder="Contraseña"><br><br>
                             <input class = "boton"  type="submit" value="Iniciar Sesión"> <br><br>
-                            <p> <a href = "#" > ¿No tienes una cuenta? </a> </p>
+                            <p> <a href = "#1" > ¿No tienes una cuenta? </a> </p>
 
                         </form>
 
@@ -97,7 +104,7 @@
                             <input class = "controlsr" type="email" id="correo" name="correo" placeholder="Ingresa un correo electrónico"><br> <br>
                             <input class = "controlsr" type="password" id="contraseña" name="contraseña"  placeholder="Ingresa una contraseña"><br><br>
                             <input class = "boton"  type="submit" value="Registrarme"> <br><br>
-                            <p> <a href = "#" > ¿Ya tienes una cuenta? </a> </p>
+                            <p> <a href = "#2" > ¿Ya tienes una cuenta? </a> </p>
                         </form>
 
                     </div>  <!-- Final Panel_Registro -->
@@ -148,20 +155,54 @@
                     </div>
         
                     </div>
+
                 </article>
                 <article id="tab3">
-                    <h1>MULTIMEDIA</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempora ratione consectetur
-                        omnis voluptas, placeat obcaecati culpa consequuntur! Magni quis impedit mollitia dolorem non
-                        omnis?</p>
-                        <div align="center">
+
+                <div class="multimedia">
+
+                    <div>
+                        <img class="img_logoM" src="imgs/logo1.png" alt="logo 20 años">
+                    </div><!-- Final img logo-->
+                      <!-- Parte 3D
+                    
+                        scene = new ();
+                        scene.background = new .Color();
+                        camera = new .PerspectiveCamera(40, window.innerWidth/window.InnerHeight, 1,5000);
+                        camera.rotation.y=;
+                        camera.rotation.x=;
+                        camera.rotation.y=;
+                        camera.rotation.z=;
+
+                        controles = new  .OrbitControls(camera);
+                        controles.addEventListener('change, renderer');
+                        hlight = new (0x404040,100);
+                        scene.add(hlight);
+                        directionalLight = new (0xfffffff, 100);
+                        directionalLight.position.set(0,1,0);
+                        directionalLight.castShadow = true;
+                        scene.add(directionalLight);
+                        renderer = new ({});
+                        renderer.setSize(window.innerWidht,window.innerHeight);
+                        document.body.appendChild(renderer.domElement);
+                        let loader = new ();
+                         loader.load (, function(gltf)
+                    {
+                       scene.add(.scene);
+                       renderer.render(scene,camera); });
+                      }
+                    -->
+
+                    <div align="center">
                         <img src="imgs/cubo 1.png">
                     </div>
-                    <div align= "center">
-                    <p>modelado 3d</p>
+                 <div align= "center">
+            
                 </div>
-                </article>
 
+            </div><!-- Final Multimedia-->
+            </article>
+            
             </div> <!-- Final secciones -->
         </div> <!-- Final wrap -->
     </div> <!-- Final fondo -->
