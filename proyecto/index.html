@@ -21,8 +21,13 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
+
+<!-- Importacion del 3D-->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>  
+
+
     <!-- PARTE 3D 
-<script srcc = ""></script>
+<script srcc = "three.min.js"></script>
 <script srcc ="" ></script>
 <script srcc ="" ></script>
 
@@ -163,12 +168,19 @@
 
                     <div>
                         <img class="img_logoM" src="imgs/logo1.png" alt="logo 20 años">
-                    </div><!-- Final img logo-->
+                        <model-viewer src="https://cdn.glitch.com/14527e78-9450-479f-9d18-4c5f43606216%2FRobotExpressive.glb?v=1618339281749" camera-controls shadow-intensity="1" autoplay animation-name="Dance" ar ar-modes="scene-viewer webxr quick-look">
+                        </model-viewer>
+
+
+                    </div>
+                    
+                    
+                    <!-- Final img logo-->
                       <!-- Parte 3D
                     
-                        scene = new ();
-                        scene.background = new .Color();
-                        camera = new .PerspectiveCamera(40, window.innerWidth/window.InnerHeight, 1,5000);
+                        scene = new THREE.SCENE();
+                        scene.background = new THREE.Color(0xdddddd);
+                        camera = new THREE.PerspectiveCamera(40, window.innerWidth/window.innerHeight, 1,5000);
                         camera.rotation.y=;
                         camera.rotation.x=;
                         camera.rotation.y=;
@@ -176,13 +188,13 @@
 
                         controles = new  .OrbitControls(camera);
                         controles.addEventListener('change, renderer');
-                        hlight = new (0x404040,100);
+                        hlight = new THREE.AmbientLight(0x404040,100);
                         scene.add(hlight);
                         directionalLight = new (0xfffffff, 100);
                         directionalLight.position.set(0,1,0);
                         directionalLight.castShadow = true;
                         scene.add(directionalLight);
-                        renderer = new ({});
+                        renderer = new THREE.WebGLRenderer({antialias:true});
                         renderer.setSize(window.innerWidht,window.innerHeight);
                         document.body.appendChild(renderer.domElement);
                         let loader = new ();
@@ -192,6 +204,13 @@
                        renderer.render(scene,camera); });
                       }
                     -->
+
+
+
+
+
+
+
 
                     <div align="center">
                         <img src="imgs/cubo 1.png">
@@ -207,5 +226,4 @@
         </div> <!-- Final wrap -->
     </div> <!-- Final fondo -->
 </body>
-
 </html>
