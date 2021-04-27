@@ -15,7 +15,6 @@
     margin: 20px 20px;
 }
 
-
 body{
     background: #070D29;
     font-family: 'Montserrat', sans-serif;
@@ -246,6 +245,16 @@ font-weight: bold;
 font-size: 40px;
 
 top: 118%;
+}
+
+.Texto_Galeria h1{
+    position: absolute;
+    border-radius: 25px;
+   width: 100%;
+font-size: ;
+    text-align: center;
+    color: #070D29;
+    font-size: 5vh;
 }
 
 
