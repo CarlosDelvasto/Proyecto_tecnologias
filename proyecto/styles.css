@@ -20,6 +20,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
+
 .wrap{
     width: cover;
     margin: 0px auto;
@@ -215,15 +218,24 @@ margin-left:15%;
         border-color: rgb(0, 0, 0, 0.5);
         margin-left: 20%;
         }
-
+       
+                                        /*Pestaña multimedia*/
+        .img_logoM{
+   
+    
+            top:40%;
+            transform: translate(60%,0%);
+            width: 90vh;
+            
+        }
 
         #pc 
         {
         position: relative;
-        width: 500px;
-        height: 500px;
-        transform: translate(80%,-50%);
-        
+        width: 100vh;
+        height: 80vh;
+        transform: translate(50%,-35%);
+     
         }
 
         model-viewer 
@@ -231,33 +243,72 @@ margin-left:15%;
             position: absolute;
             width: 90%;
             height: 90%;
-            top: 35%; 
+         top: 20%;
+      
         }
 
 
+.img_flechaup
+{
+    position: absolute;
+    left: 90%; 
+    top: 37.5%; 
+    
+}
+
+.img_flechad
+{
+    position: absolute;
+    left: 90%; 
+    top: 52.5%; 
+
+}
 
 #textoarea{
 position: absolute;
 color: white; 
-width: 100%;
+width:66%;
 font-family: Montserrat;
 font-weight: bold;
 font-size: 40px;
-
-top: 118%;
+left: 15%;
+top: 100%;
 }
 
 .Texto_Galeria h1{
-    position: absolute;
+    text-transform: uppercase;
     border-radius: 25px;
-   width: 100%;
-font-size: ;
+    width: 100%;
+    font-size: 2vh; 
     text-align: center;
     color: #070D29;
-    font-size: 5vh;
+    
 }
 
 
+.galeria img {
+    box-shadow: 0 8px 10px -4px;
+    border-radius: 10px;  
+}
+
+.galeria .col{
+    margin-bottom: 20px; 
+}
+
+.materialbox-caption{
+    bottom: 10px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    background:  white;
+    box-shadow: 5px 5px #004670;
+    font-size: 20px;
+    color: #004670;
+    line-height: 28px; 
+    margin: auto;
+    
+}
 
 
 @media screen and (max-width:  800px ){
@@ -382,14 +433,7 @@ font-size: ;
 
 }
 
-.img_logoM{
-   
-    
-    top:40%;
-    transform: translate(50%,0%);
-    width: 100vh;
-    
-}
+
 
 
 
